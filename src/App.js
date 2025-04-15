@@ -23,6 +23,58 @@ function App() {
 
         <ContactWindow show={showContactWindow} onClose={closeContactWindow} />
       </header>
+
+      <div className="welcome-block">
+        <div>
+          <h1>Фотографиня <span style={{color:"rgb(233, 171, 49)"}}>Катерина</span></h1>
+          <h2>Світло. Справжність. Ти.</h2>
+        </div>
+        <div><img style={{height:"600px", borderRadius:"30px", marginLeft:"vw"}} src="/images/all/Katerinn_MAIN_PHOTO.jpg"/></div>
+      </div>
+
+      <div className="services-block">
+        <h1>ПОСЛУГИ</h1>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+                <div>
+          dsfffffffffffffffffffff
+        </div>
+        videov
+
+        videov
+        video        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+        <div>
+          dsfffffffffffffffffffff
+        </div>
+      </div>
     </>
   );
 }
