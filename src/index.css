@@ -1,8 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +7,154 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header{
+  border:1px solid aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100px;
+}
+
+.navigation{
+  margin-left: 5vw;
+}
+
+.navigation button{
+  background: none;
+  border: none;
+
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  margin-right: 15px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.navigation button:hover{
+  color: #9768de;
+  backdrop-filter: blur(8px);
+}
+
+.contacts{
+  margin-right: 5vw;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts button,
+.contacts img{
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+.contacts button{
+  background: none;
+  border: none;
+
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  margin-right: 15px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.contacts button:hover{
+  color: #9768de;
+  backdrop-filter: blur(8px);
+}
+
+.contacts img{
+  width: 50px;
+}
+
+.back{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  background-color: #211e1ebd;
+}
+
+.window{
+  position: absolute;
+  top: 15vw;
+  right: 35vw;
+  left: 35vw;
+  height: auto;
+
+  border-radius: 30px;
+  padding-bottom: 1%;
+
+  background-color: #d2ccda;
+
+  color: black;
+}
+
+.top-part{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 5%;
+  margin-top: 1%;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+}
+
+.top-part h1{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.top-part img{
+  width: 30px;
+  object-fit: cover;
+  height: 30px;
+
+  margin-right: 3%;
+}
+
+.bottom-part{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 5%;
+  margin-top: 2%;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.bottom-part img{
+  width: 100px;
+}
+
+.bottom-part a{
+  margin-left: 2%;
+  margin-right: 12%;
 }
