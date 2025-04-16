@@ -1,4 +1,4 @@
-import {React, useState} from 'react';
+import React, { useState} from 'react';
 import ContactWindow from "./ContactWindow";
 
 function App() {
@@ -60,9 +60,13 @@ function App() {
           </div>
 
           <p style={{fontSize:"27px"}}>
-            Напишіть мені, щоб дізнатися більше про мою роботу або <span style={{color:"#4b4b4b", cursor:"pointer"}} onClick={openContactWindow}>забронюйте зйомку.</span>
+            Напишіть мені, щоб дізнатися більше про мою роботу або <span className="portfolio-hover" onClick={openContactWindow}>забронюйте зйомку.</span>
           </p>
         </div>
+      </div>
+
+      <div className="portfolio-block">
+        
       </div>
     </>
   );

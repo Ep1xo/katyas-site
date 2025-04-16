@@ -2,6 +2,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 3000px;
 }
 
 code {
@@ -27,8 +29,7 @@ header{
   background-color: #fffffff7;
   backdrop-filter: blur(3px);
 
-  z-index: 1000;
-  
+  z-index: 9999;
 }
 
 .navigation{
@@ -268,4 +269,25 @@ header{
   background: none;
   scale: 0.33;
   height: 50px;
+}
+
+.portfolio-hover{
+  cursor: pointer ;
+  color: #4b4b4b;
+  transition: 0.5s ease-in-out;
+}
+
+.portfolio-hover:hover{
+  color: #3f0678;
+}
+
+/*      ----PORTFOLIO BLOCK----     */
+
+.portfolio-block{
+  margin-top: 50px;
+  padding-top: 10px;
+
+  height: auto;
+
+  background: #ededee;
 }
