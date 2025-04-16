@@ -25,7 +25,7 @@ header{
   height: 100px; /**/
 
   background-color: #fffffff7;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 
   z-index: 1000;
   
@@ -82,11 +82,11 @@ header{
   justify-content: center;
 
   padding-bottom: 7px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 
   color: #ffffff;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 600;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -110,8 +110,10 @@ header{
   border-radius: 50%;
 }
 
+/*      ----CONTACT WINDOW----      */
+
 .back{
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -121,7 +123,7 @@ header{
 }
 
 .window{
-  position: absolute;
+  position: fixed;
   top: 15vw;
   right: 35vw;
   left: 35vw;

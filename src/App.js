@@ -20,9 +20,10 @@ function App() {
           <button onClick={openContactWindow}>Контакти</button>
           <a href="https://www.instagram.com/katerinn.video?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target= "_blank"><img src="/icons/instagram.svg"/></a>
         </div>
-
         <ContactWindow show={showContactWindow} onClose={closeContactWindow} />
       </header>
+
+      <ContactWindow show={showContactWindow} onClose={closeContactWindow} />
 
       <div className="welcome-block">
         <div>
