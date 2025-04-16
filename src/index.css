@@ -196,7 +196,7 @@ header{
   align-items: center;
 
   height: 680px;
-  width: auto;
+  width: 100%;
 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
@@ -207,6 +207,8 @@ header{
 
 .welcome-block h1{
   font-size: 50px;
+
+  margin-right: 7vw;
 }
 
 .welcome-block h2{
@@ -215,3 +217,55 @@ header{
 }
 
 /*      ----SERVICES BLOCK----     */
+
+.service-block{
+  height: 500px;
+  margin-left: -5vw;
+  margin-right: -5vw;
+  padding: 0 5vw;
+  background: #ffffff;
+  align-content: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.margin-text{
+  width: 100%;
+  padding-left: 15vw;
+  background: #ffffff;
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-block h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 50px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service-block .tag{
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  background: #dddcdd;
+  color: #4b4b4b;
+  padding: 8px 22px 8px 8px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+
+.service-block .tag .tag-icon{
+  margin: -10px;
+  padding: 0;
+  position: relative;
+  content: url(C:\Users\Ivan\Desktop\kate\katyas-site\public/icons/check.png);
+  background: none;
+  scale: 0.33;
+  height: 50px;
+}

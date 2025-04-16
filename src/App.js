@@ -33,47 +33,35 @@ function App() {
         <div><img style={{height:"600px", borderRadius:"30px", marginLeft:"vw"}} src="/images/all/Katerinn_MAIN_PHOTO.jpg"/></div>
       </div>
 
-      <div className="services-block">
-        <h1>ПОСЛУГИ</h1>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
+      <div className='service-block' draggable="false">
+        <h1 style={{fontSize: '52px'}}>ПОСЛУГИ</h1>
+        <div className="margin-text">
+          <p style={{fontSize: '27px'}}>
+            Зупиняю час 
+            <span style={{color: '#4b4b4b'}}> в об'єктиві</span>. Ознайомтеся з моїми
+            <span style={{color: '#4b4b4b'}}> фотопослугами:</span>
+          </p>
 
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-                <div>
-          dsfffffffffffffffffffff
-        </div>
-        videov
+          <div style={{display:'flex'}}>
+            <p className='tag'><p className='tag-icon'/>
+            Портретні зйомки</p>
+            <p className='tag'><p className='tag-icon'/>
+            Фотографування подій</p>
+            <p className='tag'><p className='tag-icon'/>
+            Креативні фотопроєкти</p>
+            <p className='tag'><p className='tag-icon'/>
+            Ретушування зображень</p>
+          </div>
+          <div style={{display:'flex'}}>
+            <p className='tag'><p className='tag-icon'/>
+            Студійні зйомки</p>
+            <p className='tag'><p className='tag-icon'/>
+            Сімейні фотосесії</p>
+          </div>
 
-        videov
-        video        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
-        </div>
-        <div>
-          dsfffffffffffffffffffff
+          <p style={{fontSize:"27px"}}>
+            Напишіть мені, щоб дізнатися більше про мою роботу або <span style={{color:"#4b4b4b", cursor:"pointer"}} onClick={openContactWindow}>забронюйте зйомку.</span>
+          </p>
         </div>
       </div>
     </>
