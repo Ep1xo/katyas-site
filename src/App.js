@@ -1,8 +1,32 @@
 import React, { useState} from 'react';
 import ContactWindow from "./ContactWindow";
+import AllGallery from './Portfolio-Components/AllGallery';
+import PersonalShooting from './Portfolio-Components/PersonalShooting';
+import StreetStyle from './Portfolio-Components/StreetStyle';
+import LoveStory from './Portfolio-Components/LoveStory';
+import Pregnant from './Portfolio-Components/Pregnant';
+
 
 function App() {
   const [showContactWindow, setShowContactWindow] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState('All');
+
+  const renderComponent = () => {
+    switch(selectedCategory){
+      case 'All':
+        return <AllGallery/>;
+      case 'PersonalShooting':
+        return <PersonalShooting/>;
+      case 'StreetStyle':
+        return <StreetStyle/>;
+      case 'LoveStory':
+        return <LoveStory/>;
+      case 'Pregnant':
+        return <Pregnant/>;
+      default:
+        return <AllGallery/>;
+    }
+  };
 
   const openContactWindow = () => setShowContactWindow(true);
   const closeContactWindow = () => setShowContactWindow(false);
@@ -12,8 +36,8 @@ function App() {
       <header>
         <div className="navigation">
           <button>Головна</button>
-          <button>Портфоліо</button>
           <button>Послуги</button>
+          <button>Портфоліо</button>
           <button>FAQ</button>
         </div>
         <div className="contacts">
@@ -27,7 +51,7 @@ function App() {
 
       <div className="welcome-block">
         <div>
-          <h1>Фотографиня <span style={{color:"rgb(233, 171, 49)"}}>Катерина</span></h1>
+          <h1>Фотографиня <span className='Katerina'>Катерина</span></h1>
           <h2>Світло. Справжність. Ти.</h2>
         </div>
         <div><img style={{height:"600px", borderRadius:"30px", marginLeft:"vw"}} src="/images/all/Katerinn_MAIN_PHOTO.jpg"/></div>
@@ -66,7 +90,30 @@ function App() {
       </div>
 
       <div className="portfolio-block">
+        <h1>Портфоліо</h1>
+
         
+        <div style={{display:"flex", justifyContent:"center", marginBottom:"20px"}}>
+          <p className={`tag ${selectedCategory === 'All' ? 'selected' : ''}`} onClick={() => setSelectedCategory('All')}>
+            All photos
+          </p>
+          <p className={`tag ${selectedCategory === 'LoveStory' ? 'selected' : ''}`} onClick={() => setSelectedCategory('LoveStory')}>
+            Love story
+          </p>
+          <p className={`tag ${selectedCategory === 'Pregnant' ? 'selected' : ''}`} onClick={() => setSelectedCategory('Pregnant')}>
+            Pregnant
+          </p>
+          <p className={`tag ${selectedCategory === 'StreetStyle' ? 'selected' : ''}`} onClick={() => setSelectedCategory('StreetStyle')}>
+            Street style
+          </p>
+          <p className={`tag ${selectedCategory === 'PersonalShooting' ? 'selected' : ''}`} onClick={() => setSelectedCategory('PersonalShooting')}>
+            Personal shooting
+          </p>
+        </div>
+
+        <div>
+          {renderComponent()}
+        </div>
       </div>
     </>
   );
