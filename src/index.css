@@ -7,8 +7,6 @@ body {
   margin: 0;
   padding: 0;
 
-  height: 5000px;
-
   overflow-x: hidden;
 }
 
@@ -128,6 +126,8 @@ header{
   bottom: 0;
 
   background-color: #211e1ebd;
+
+  z-index: 10000;
 }
 
 .window{
@@ -389,4 +389,14 @@ header{
   border-radius: 15px;
 
   cursor: pointer;
+}
+
+/*      ----Bottom part----     */
+
+.bottom-part{
+  padding-bottom: 2vw;
+}
+
+.bottom-part p{
+  color: #747474;
 }

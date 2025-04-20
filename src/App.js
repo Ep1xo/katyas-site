@@ -115,6 +115,10 @@ function App() {
           {renderComponent()}
         </div>
       </div>
+
+      <div className='bottom-part'>
+        <p>© 2025 Katerinn Video. Усі права застережено.</p>
+      </div>
     </>
   );
 }
