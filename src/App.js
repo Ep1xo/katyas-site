@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState, useRef } from 'react';
 import ContactWindow from "./ContactWindow";
 import AllGallery from './Portfolio-Components/AllGallery';
 import PersonalShooting from './Portfolio-Components/PersonalShooting';
@@ -114,6 +114,11 @@ function App() {
         <div>
           {renderComponent()}
         </div>
+      </div>
+
+      <div>
+        вопрос и стрелка
+        при нажатии блок расширяется и там ответ, работает только один блок за раз
       </div>
 
       <div className='bottom-part'>
