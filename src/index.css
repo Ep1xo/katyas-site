@@ -400,3 +400,92 @@ header{
 .bottom-part p{
   color: #747474;
 }
+
+/*      ----WELCOME BLOCK----     */
+
+.faq-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #000000;
+  color: white;
+
+  height: auto;
+}
+
+.faq-block h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.faq{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.question-element-opener .question{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #54545460;
+  border: none;
+  border-radius: 15px 15px 0 0;
+  padding: 25px 50px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.question-element .question{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #54545460;
+  border: none;
+   padding: 15px 50px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.question-element-closer .question{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #54545460;
+  border: none;
+  border-radius: 0 0 15px 15px;
+  padding: 15px 50px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.question-element, 
+.question-element-opener,
+.question-element-closer{
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.question{
+  justify-content: space-between;
+
+  margin-top: 1px;
+  margin-left: 10vw;
+}
+
+.question h5{
+  margin-right: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.question img{
+  width: 35px;
+}

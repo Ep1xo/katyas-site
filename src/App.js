@@ -5,6 +5,7 @@ import PersonalShooting from './Portfolio-Components/PersonalShooting';
 import StreetStyle from './Portfolio-Components/StreetStyle';
 import LoveStory from './Portfolio-Components/LoveStory';
 import Pregnant from './Portfolio-Components/Pregnant';
+import './faq.js';
 
 
 function App() {
@@ -116,9 +117,57 @@ function App() {
         </div>
       </div>
 
-      <div>
-        вопрос и стрелка
-        при нажатии блок расширяется и там ответ, работает только один блок за раз
+      <div className='faq-block'>
+        <h1>FAQ</h1>
+        <div className='faq'>
+          <div>
+            <div className='question-element-opener'>
+              <div className='question'>
+                <h5>Як забронювати фотосесію?</h5>
+                <img src='/icons/add_circle.png'/>
+              </div>
+            </div>
+            <div className='question-element'>
+              <div className='question'>
+                <h5>Де відбуваються зйомки?</h5>
+                <img src='/icons/add_circle.png'/>
+              </div>
+            </div>
+            <div className='question-element'>
+              <div className='question'>
+                <h5>Ви обробляєте фотографії?</h5>
+                <img src='/icons/add_circle.png'/>
+              </div>
+            </div>
+            <div className='question-element'>
+              <div className='question'>
+                <h5>Що робити, якщо буде йти дощ/погана погода?</h5>
+                <img src='/icons/add_circle.png'/>
+              </div>
+            </div>
+            <div className='question-element'>
+              <div className='question'>
+                <h5>Чи можна прийти з другом/сім'єю/домашньою твариною?</h5>
+                <img src='/icons/add_circle.png'/>
+              </div>
+            </div>
+            <div className='question-element'>
+              <div className='question'>
+                <h5>Ви публікуєте фото клієнтів у портфоліо?</h5>
+                <img src='/icons/add_circle.png'/>
+              </div>
+            </div>
+            <div className='question-element-closer'>
+              <div className='question'>
+                <h5>Яка вартість фотосесії?</h5>
+                <img src='/icons/add_circle.png'/>
+              </div>
+            </div>
+          </div>
+
+
+          <div><img src='/images/banners/faq.png'/></div>
+        </div>
       </div>
 
       <div className='bottom-part'>
