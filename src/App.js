@@ -5,8 +5,7 @@ import PersonalShooting from './Portfolio-Components/PersonalShooting';
 import StreetStyle from './Portfolio-Components/StreetStyle';
 import LoveStory from './Portfolio-Components/LoveStory';
 import Pregnant from './Portfolio-Components/Pregnant';
-import './faq.js';
-
+import FaqBlock from './FaqBlock';
 
 function App() {
   const [showContactWindow, setShowContactWindow] = useState(false);
@@ -122,46 +121,25 @@ function App() {
         <div className='faq'>
           <div>
             <div className='question-element-opener'>
-              <div className='question'>
-                <h5>Як забронювати фотосесію?</h5>
-                <img src='/icons/add_circle.png'/>
-              </div>
+            <FaqBlock question="Як забронювати фотосесію?" answer="Зв'яжіться зі мною через форму на сайті або в соцмережах підберемо зручну дату." />
             </div>
             <div className='question-element'>
-              <div className='question'>
-                <h5>Де відбуваються зйомки?</h5>
-                <img src='/icons/add_circle.png'/>
-              </div>
+              <FaqBlock question="Де відбуваються зйомки?" answer="На вулиці, у студії чи за домовленістю все обговоримо заздалегідь." />
             </div>
             <div className='question-element'>
-              <div className='question'>
-                <h5>Ви обробляєте фотографії?</h5>
-                <img src='/icons/add_circle.png'/>
-              </div>
+              <FaqBlock question="Ви обробляєте фотографії?" answer="Так, всі знімки проходять корекцію кольору і легку ретуш." />
             </div>
             <div className='question-element'>
-              <div className='question'>
-                <h5>Що робити, якщо буде йти дощ/погана погода?</h5>
-                <img src='/icons/add_circle.png'/>
-              </div>
+              <FaqBlock question="Що робити, якщо буде йти дощ/погана погода?" answer="Перенесемо зйомку або підберемо альтернативну локацію." />
             </div>
             <div className='question-element'>
-              <div className='question'>
-                <h5>Чи можна прийти з другом/сім'єю/домашньою твариною?</h5>
-                <img src='/icons/add_circle.png'/>
-              </div>
+              <FaqBlock question="Чи можна прийти з другом/сім'єю/домашньою твариною?" answer="Звісно! Чим тепліше компанія, тим живіше кадри." />
             </div>
             <div className='question-element'>
-              <div className='question'>
-                <h5>Ви публікуєте фото клієнтів у портфоліо?</h5>
-                <img src='/icons/add_circle.png'/>
-              </div>
+              <FaqBlock question="Ви публікуєте фото клієнтів у портфоліо?" answer="Тільки за вашою згодою. Конфіденційність важлива." />
             </div>
             <div className='question-element-closer'>
-              <div className='question'>
-                <h5>Яка вартість фотосесії?</h5>
-                <img src='/icons/add_circle.png'/>
-              </div>
+              <FaqBlock question="Яка вартість фотосесії?" answer="Залежить від формату. Але найчастіше вона договірна." />
             </div>
           </div>
 
