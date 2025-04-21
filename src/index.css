@@ -56,7 +56,7 @@ header{
 }
 
 .navigation button:hover{
-  color: #9768de;
+  color: #bc430d;
   backdrop-filter: blur(8px);
 }
 
@@ -101,12 +101,12 @@ header{
 
 .contacts button:hover,
 .contacts img:hover{
-  color: #9768de;
+  color: #bc430d;
   backdrop-filter: blur(8px);
 }
 
 .contacts img:hover{
- background-color: #9768de;
+ background-color: #bc430d;
 }
 
 .contacts img{
@@ -223,7 +223,7 @@ header{
 }
 
 .Katerina{
-  background: linear-gradient(to right, orange, rgb(95, 75, 38), orange, orange, grey);
+  background: linear-gradient(to right, #f09410, #bc430d, #f09410);
   background-clip: text;
   color: transparent;
   background-size: 200%;
@@ -323,8 +323,8 @@ header{
   display: flex;
   font-size: 20px;
   font-weight: 500;
-  background: #eeebff;
-  color: #4824ff;
+  background: transparent;
+  color: #e7881bfa;
   margin: 0 12px 0 0;
   padding: 8px 22px 8px 22px;
   border-radius: 24px;
@@ -334,16 +334,15 @@ header{
 }
 
 .portfolio-block .tag:hover{
-  background: #4824ff;
-  color: white;
+  background: #e7881bfa;
+  color: #ededee;
   filter: drop-shadow(0px 0px 30px #4824ff25);
 }
 
 .portfolio-block .selected{
-  background: #04001a;
+  background: #7b1509;
 
   color: white;
-  border: 1px solid #4824ff;
 }
 
 /*      ----PORTFOLIO BLOCK (images)----     */
@@ -389,34 +388,33 @@ header{
   cursor: pointer;
 }
 
-/*      ----Bottom part----     */
-
-.bottom-part{
-  padding-bottom: 2vw;
-}
-
-.bottom-part p{
-  color: #747474;
-}
-
-/*      ----WELCOME BLOCK----     */
+/*      ----FAQ BLOCK----     */
 
 .faq-block{
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  background: #000000;
+  background: linear-gradient(to right, #f09410, #bc430d, #f09410);
+  color: transparent;
+  background-size: 200%;
+  animation: gradientAnimation 25s linear infinite;
   color: white;
 
   height: auto;
 }
 
+@keyframes gradientAnimation {
+  0% { background-position: 200% 50% }
+  100% { background-position: 0% 50%}
+}
+
 .faq-block h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-  margin-top: 3%;
+  margin-top: 5%;
   margin-bottom: 5%;
+  color: #141414;
 }
 
 .faq{
@@ -426,6 +424,8 @@ header{
   align-items: center;
 
   position: relative;
+
+  margin-bottom: 40px;
 }
 
 .faq img{
@@ -439,7 +439,7 @@ header{
 }
 
 .question-element-opener .question{
-  background-color: #54545460;
+  background-color:rgba(0, 0, 0, 0.6);
   border: none;
   border-radius: 15px 15px 0 0;
   padding: 25px 50px;
@@ -449,7 +449,7 @@ header{
 }
 
 .question-element .question{
-  background-color: #54545460;
+  background-color: rgba(0, 0, 0, 0.6);
   border: none;
   padding: 15px 50px;
   font-size: 25px;
@@ -458,7 +458,7 @@ header{
 }
 
 .question-element-closer .question{
-  background-color: #54545460;
+  background-color: rgba(0, 0, 0, 0.6);
   border: none;
   border-radius: 0 0 15px 15px;
   padding: 15px 50px;
@@ -481,11 +481,9 @@ header{
   justify-content: space-between;
 
   margin-top: 1px;
-  margin-left: 10vw;
 }
 
 .question h5{
-  margin-right: 60px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -499,7 +497,7 @@ header{
   flex-direction: column;
   align-items: center;
 
-  background-color: #54545460;
+  background-color: rgba(0, 0, 0, 0.6);
   border: none;
   border-radius: 0 0 15px 15px;
   padding: 15px 50px;
@@ -508,10 +506,11 @@ header{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   width: 100%;
-  margin-left: 10vw;
-  margin-right: 60px;
 
   user-select: none;
+
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .faq-item p{
@@ -527,10 +526,28 @@ header{
   align-items: center;
 
   user-select: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer-wrapper {
+  transition: max-height 0.4s ease;
 }
 
 .faq-question img{
   width: 35px;
   height: 35px;
   object-fit: contain;
+}
+
+/*      ----Bottom part----     */
+
+.bottom-part{
+  padding-bottom: 2vw;
+}
+
+.bottom-part p{
+  color: #747474;
 }

@@ -142,9 +142,6 @@ function App() {
               <FaqBlock question="Яка вартість фотосесії?" answer="Залежить від формату. Але найчастіше вона договірна." />
             </div>
           </div>
-
-
-          <img src='/images/banners/faq.png'/>
         </div>
       </div>
 
