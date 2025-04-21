@@ -144,7 +144,7 @@ function App() {
           </div>
 
 
-          <div><img src='/images/banners/faq.png'/></div>
+          <img src='/images/banners/faq.png'/>
         </div>
       </div>
 

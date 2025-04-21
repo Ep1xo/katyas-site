@@ -2,8 +2,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  outline: 1px solid red;
-
   margin: 0;
   padding: 0;
 
@@ -298,7 +296,7 @@ header{
 }
 
 .portfolio-hover:hover{
-  color: #3f0678;
+  color: #e7881bfa;
 }
 
 /*      ----PORTFOLIO BLOCK----     */
@@ -416,6 +414,9 @@ header{
 
 .faq-block h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
 
 .faq{
@@ -423,13 +424,21 @@ header{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  position: relative;
+}
+
+.faq img{
+  position: sticky;
+}
+
+.faq div{
+  width: 100%;
+  cursor: pointer;
+
 }
 
 .question-element-opener .question{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
   background-color: #54545460;
   border: none;
   border-radius: 15px 15px 0 0;
@@ -440,23 +449,15 @@ header{
 }
 
 .question-element .question{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
   background-color: #54545460;
   border: none;
-   padding: 15px 50px;
+  padding: 15px 50px;
   font-size: 25px;
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .question-element-closer .question{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
   background-color: #54545460;
   border: none;
   border-radius: 0 0 15px 15px;
@@ -469,7 +470,10 @@ header{
 .question-element, 
 .question-element-opener,
 .question-element-closer{
-  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
   margin-bottom: 2%;
 }
 
@@ -488,4 +492,45 @@ header{
 
 .question img{
   width: 35px;
+}
+
+.faq-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #54545460;
+  border: none;
+  border-radius: 0 0 15px 15px;
+  padding: 15px 50px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  width: 100%;
+  margin-left: 10vw;
+  margin-right: 60px;
+
+  user-select: none;
+}
+
+.faq-item p{
+  font-size: 20px;
+
+  user-select: none;
+}
+
+.faq-question{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  user-select: none;
+}
+
+.faq-question img{
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
 }
