@@ -31,15 +31,25 @@ function App() {
   const openContactWindow = () => setShowContactWindow(true);
   const closeContactWindow = () => setShowContactWindow(false);
 
+  const [scroll, setScroll] = useState(0);
+
+  const upButton = () => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
+  }
+
+  const toBlock = (height) => {
+    window.scrollTo({top: height, left: 0, behavior: 'smooth'})
+  }
+
   return (
     <>
       <header>
         <div className="navigation">
-          <button>Головна</button>
-          <button>Послуги</button>
-          <button>Портфоліо</button>
-          <button>Гарантії</button>
-          <button>FAQ</button>
+          <button onClick={upButton}>Головна</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="800">Послуги</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="1350">Портфоліо</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="2350">Гарантії</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="3190">FAQ</button>
         </div>
         <div className="contacts">
           <button onClick={openContactWindow}>Контакти</button>

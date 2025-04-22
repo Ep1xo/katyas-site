@@ -317,6 +317,7 @@ header{
 .portfolio-block h1{
   display: flex;
   justify-content: center;
+  font-size: 52px;
 }
 
 .portfolio-block .tag{
@@ -445,6 +446,7 @@ header{
 
 .faq-block h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 52px;
 
   margin-top: 5%;
   margin-bottom: 5%;
