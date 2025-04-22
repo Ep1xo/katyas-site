@@ -148,10 +148,6 @@ function App() {
         </div>
         <div className='guarantie'>
           <img src='/icons/checklist.png'/>
-          <p>Повернення — передоплата повертається з поважної причини.</p>
-        </div>
-        <div className='guarantie'>
-          <img src='/icons/checklist.png'/>
           <p>Підтримка на всіх етапах — від підготовки до фінальних фото.
           </p>
         </div>
