@@ -38,6 +38,7 @@ function App() {
           <button>Головна</button>
           <button>Послуги</button>
           <button>Портфоліо</button>
+          <button>Гарантії</button>
           <button>FAQ</button>
         </div>
         <div className="contacts">
@@ -90,7 +91,7 @@ function App() {
       </div>
 
       <div className="portfolio-block">
-        <h1>Портфоліо</h1>
+        <h1>ПОРТФОЛІО</h1>
 
         
         <div style={{display:"flex", justifyContent:"center", marginBottom:"20px"}}>
@@ -113,6 +114,40 @@ function App() {
 
         <div>
           {renderComponent()}
+        </div>
+      </div>
+
+      <div className='guaranties-block'>
+        <h1>ГАРАНТІЇ</h1>
+
+        <div className='guarantie'>
+          <img src='/icons/checklist.png'/>
+          <p>Якість — професійна обробка та відбір найкращих кадрів.</p>
+        </div>
+        <div className='guarantie'>
+          <img src='/icons/checklist.png'/>
+          <p>Терміни — фото вчасно, або знижка.</p>
+        </div>
+        <div className='guarantie'>
+          <img src='/icons/checklist.png'/>
+          <p>Конфіденційність — без публікації без вашої згоди.</p>
+        </div>
+        <div className='guarantie'>
+          <img src='/icons/checklist.png'/>
+          <p>Прозорість — чіткий договір і зрозумілі умови.</p>
+        </div>
+        <div className='guarantie'>
+          <img src='/icons/checklist.png'/>
+          <p>Повернення — передоплата повертається з поважної причини.</p>
+        </div>
+        <div className='guarantie'>
+          <img src='/icons/checklist.png'/>
+          <p>Підтримка на всіх етапах — від підготовки до фінальних фото.
+          </p>
+        </div>
+        <div className='guarantie'>
+          <img src='/icons/checklist.png'/>
+          <p>Індивідуальний підхід — зйомка під ваш стиль та запит.</p>
         </div>
       </div>
 

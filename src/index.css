@@ -388,6 +388,40 @@ header{
   cursor: pointer;
 }
 
+/*      ----GARANTIES BLOCK----     */
+
+.guaranties-block{
+  background: #e2e2e2;
+  padding-top: 5vw;
+  padding: 5vw;
+}
+
+.guaranties-block h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.guarantie{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vw;
+
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.guarantie img{
+  width: 35px;
+  object-fit: contain;
+  margin-right: 2%;
+}
+
+
 /*      ----FAQ BLOCK----     */
 
 .faq-block{
