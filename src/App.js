@@ -55,7 +55,6 @@ function App() {
           <button onClick={openContactWindow}>Контакти</button>
           <a href="https://www.instagram.com/katerinn.video?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target= "_blank"><img src="/icons/instagram.svg"/></a>
         </div>
-        <ContactWindow show={showContactWindow} onClose={closeContactWindow} />
       </header>
 
       <ContactWindow show={showContactWindow} onClose={closeContactWindow} />
@@ -84,10 +83,10 @@ function App() {
             Фотографування подій</p>
             <p className='tag'><p className='tag-icon'/>
             Креативні фотопроєкти</p>
-            <p className='tag'><p className='tag-icon'/>
-            Ретушування зображень</p>
           </div>
           <div style={{display:'flex'}}>
+            <p className='tag'><p className='tag-icon'/>
+            Ретушування зображень</p>
             <p className='tag'><p className='tag-icon'/>
             Студійні зйомки</p>
             <p className='tag'><p className='tag-icon'/>
