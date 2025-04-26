@@ -23,7 +23,7 @@ header{
 
   position: fixed;
   top: 0;
-  right: 0;
+  right: 15px;
   left: 0;
 
   height: 100px; /**/
@@ -85,7 +85,8 @@ header{
   align-items: center;
   justify-content: center;
 
-  padding-bottom: 7px;
+  padding-bottom: 13px;
+  padding-top: 10px;
   padding-left: 50px;
   padding-right: 50px;
 
@@ -239,9 +240,8 @@ header{
 
 .service-block{
   height: 500px;
-  margin-left: -5vw;
-  margin-right: -5vw;
-  padding: 0 5vw;
+  width: 100%;
+
   background: #ffffff;
   align-content: center;
 
@@ -251,8 +251,7 @@ header{
 }
 
 .margin-text{
-  width: 100%;
-  padding-left: 15vw;
+  width: inherit;
   background: #ffffff;
 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -277,6 +276,7 @@ header{
   padding: 8px 22px 8px 8px;
   border-radius: 24px;
   margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 .service-block .tag .tag-icon{

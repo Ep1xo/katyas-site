@@ -42,25 +42,24 @@ function App() {
   }
 
   return (
-    <>
+    <div>
       <header>
         <div className="navigation">
           <button onClick={upButton}>Головна</button>
           <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="800">Послуги</button>
           <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="1350">Портфоліо</button>
-          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="2350">Гарантії</button>
-          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="3190">FAQ</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="2330">Гарантії</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="3040">FAQ</button>
         </div>
         <div className="contacts">
           <button onClick={openContactWindow}>Контакти</button>
-          <a href="https://www.instagram.com/katerinn.video?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target= "_blank"><img src="/icons/instagram.svg"/></a>
         </div>
       </header>
 
       <ContactWindow show={showContactWindow} onClose={closeContactWindow} />
 
       <div className="welcome-block">
-        <div>
+        <div className='main-info'>
           <h1>Фотографиня <span className='Katerina'>Катерина</span></h1>
           <h2>Світло. Справжність. Ти.</h2>
         </div>
@@ -71,26 +70,32 @@ function App() {
         <h1 style={{fontSize: '52px'}}>ПОСЛУГИ</h1>
         <div className="margin-text">
           <p style={{fontSize: '27px'}}>
-            Зупиняю час 
-            <span style={{color: '#4b4b4b'}}> в об'єктиві</span>. Ознайомтеся з моїми
-            <span style={{color: '#4b4b4b'}}> фотопослугами:</span>
+            Зупиняю час в об'єктиві. Ознайомтеся з моїми фотопослугами:
           </p>
 
           <div style={{display:'flex'}}>
-            <p className='tag'><p className='tag-icon'/>
-            Портретні зйомки</p>
-            <p className='tag'><p className='tag-icon'/>
-            Фотографування подій</p>
-            <p className='tag'><p className='tag-icon'/>
-            Креативні фотопроєкти</p>
+            <div className='tag'>
+              <div className='tag-icon'></div>
+              <span>Портретні зйомки</span>
+            </div><div className='tag'>
+              <div className='tag-icon'></div>
+              <span>Фотографування подій</span>
+            </div><div className='tag'>
+              <div className='tag-icon'></div>
+              <span>Креативні фотопроєкти</span>
+            </div>
           </div>
           <div style={{display:'flex'}}>
-            <p className='tag'><p className='tag-icon'/>
-            Ретушування зображень</p>
-            <p className='tag'><p className='tag-icon'/>
-            Студійні зйомки</p>
-            <p className='tag'><p className='tag-icon'/>
-            Сімейні фотосесії</p>
+            <div className='tag'>
+              <div className='tag-icon'></div>
+              <span>Ретушування зображень</span>
+            </div><div className='tag'>
+              <div className='tag-icon'></div>
+              <span>Студійні зйомки</span>
+            </div><div className='tag'>
+              <div className='tag-icon'></div>
+              <span>Сімейні фотосесії</span>
+            </div>
           </div>
 
           <p style={{fontSize:"27px"}}>
@@ -188,7 +193,7 @@ function App() {
       <div className='bottom-part'>
         <p>© 2025 Katerinn Video. Усі права застережено.</p>
       </div>
-    </>
+    </div>
   );
 }
 
