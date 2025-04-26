@@ -67,8 +67,7 @@ header{
   flex-direction: row;
 }
 
-.contacts button,
-.contacts img{
+.contacts button{
   background: none;
   border: none;
 
@@ -234,6 +233,11 @@ header{
 @keyframes gradientAnimation {
   0% { background-position: 200% 50% }
   100% { background-position: 0% 50%}
+}
+
+.main-photo{
+  height: 600px;
+  border-radius: 30px;
 }
 
 /*      ----SERVICES BLOCK----     */

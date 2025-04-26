@@ -63,7 +63,7 @@ function App() {
           <h1>Фотографиня <span className='Katerina'>Катерина</span></h1>
           <h2>Світло. Справжність. Ти.</h2>
         </div>
-        <div><img style={{height:"600px", borderRadius:"30px", marginLeft:"vw"}} src="/images/all/Katerinn_MAIN_PHOTO.jpg"/></div>
+        <div><img className='main-photo' src="/images/all/Katerinn_MAIN_PHOTO.jpg"/></div>
       </div>
 
       <div className='service-block' draggable="false">
