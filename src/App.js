@@ -48,7 +48,7 @@ function App() {
           <button onClick={upButton}>Головна</button>
           <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="800">Послуги</button>
           <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="1350">Портфоліо</button>
-          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="2330">Гарантії</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="2300">Гарантії</button>
           <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="3040">FAQ</button>
         </div>
         <div className="contacts">
