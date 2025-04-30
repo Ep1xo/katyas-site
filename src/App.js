@@ -69,7 +69,7 @@ function App() {
       <div className='service-block' draggable="false">
         <h1 style={{fontSize: '52px'}}>ПОСЛУГИ</h1>
         <div className="margin-text">
-          <p style={{fontSize: '27px'}}>
+          <p>
             Зупиняю час в об'єктиві. Ознайомтеся з моїми фотопослугами:
           </p>
 
@@ -94,7 +94,7 @@ function App() {
               <span>Сімейні фотосесії</span>
             </div>
 
-          <p style={{fontSize:"27px"}}>
+          <p>
             Напишіть мені, щоб дізнатися більше про мою роботу або <span className="portfolio-hover" onClick={openContactWindow}>забронюйте зйомку.</span>
           </p>
         </div>

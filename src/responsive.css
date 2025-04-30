@@ -54,10 +54,6 @@
     margin-right: 0;
   }
 
-  .service-block h1{
-    margin-bottom: 30px;
-  }
-
   .main-info{
     margin-left: 15px;
   }
@@ -78,7 +74,7 @@
 
   .margin-text p{
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .margin-text .tag{
@@ -232,7 +228,7 @@
 
   .margin-text p{
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 27px;
   }
 
   .margin-text .tag{
