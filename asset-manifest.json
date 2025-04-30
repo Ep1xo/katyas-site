@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/katyas-site/static/css/main.79dbc499.css",
+    "main.js": "/katyas-site/static/js/main.3a60111c.js",
+    "static/js/453.56bc03ec.chunk.js": "/katyas-site/static/js/453.56bc03ec.chunk.js",
+    "index.html": "/katyas-site/index.html",
+    "main.79dbc499.css.map": "/katyas-site/static/css/main.79dbc499.css.map",
+    "main.3a60111c.js.map": "/katyas-site/static/js/main.3a60111c.js.map",
+    "453.56bc03ec.chunk.js.map": "/katyas-site/static/js/453.56bc03ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79dbc499.css",
+    "static/js/main.3a60111c.js"
+  ]
+}
