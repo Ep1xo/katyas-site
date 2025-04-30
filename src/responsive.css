@@ -1,19 +1,178 @@
-
-@media (max-width: 640px) { 
+@media (max-width: 320px) { 
   
- }
-
+}
+ 
 @media (max-width: 480px) { 
   
- }
+}
 
 @media (max-width: 360px) {
   
- }
+}
+ 
+@media (max-width: 640px) { 
+  body{
+    overflow-x: hidden;
+  }
 
-@media (max-width: 320px) { 
+  header{
+    background: none;
+    backdrop-filter: none;
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  .contacts{
+    position: fixed;
+    bottom: 35px;
+    right: 25px;
+
+    margin-right: 0;
+  }
+
+  .contacts button{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 0;
+    color: #bc430d;
+  }
+
+  .welcome-block{
+    margin-top: 0;
+  }
+
+  .welcome-block h1{
+    font-size: 50px;
+    margin-right: 15px;
+  }
+
+  .welcome-block h2{
+    font-size: 30px;
+    margin-right: 0;
+  }
+
+  .service-block h1{
+    margin-bottom: 30px;
+  }
+
+  .main-info{
+    margin-left: 15px;
+  }
+
+  .main-photo{
+    height: 300px;
+    border-radius: 30px;
+    margin-right: 15px;
+  }
+
+  .main-info h1{
+    font-size: 45px;
+  } 
+
+  .main-info h2{
+    font-size: 25px;
+  }
+
+  .margin-text p{
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  .margin-text .tag{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 22px;
+    width: 88%;
+  }
+
+  .portfolio-hover{
+    color: #bc430d;
+  }
+
+  .portfolio-block .tag{
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .all-photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 2%;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
   
- }
+    padding-bottom: 15vw;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .photos-flex-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0vw;
+  }
+  
+  .photos-flex-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0vw;
+  }
+
+  .faq-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 0 0 15px 15px;
+    padding: 15px 50px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    width: 100%;
+  
+    user-select: none;
+  
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .guaranties-block{
+    padding-left: 0;
+  }
+
+  .guarantie{
+    margin-left: 8vw;
+  }
+
+  .portfolio-block .tag{
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-block div{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
 
 @media (min-width: 641px) and (max-width: 768px) {
   body{
@@ -21,21 +180,6 @@
   }
 
   header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  
-    height: 80px; /**/
-    width: 100%;
-  
-    z-index: 9999;
-  
     background: none;
     backdrop-filter: none;
   }
@@ -54,14 +198,11 @@
   }
 
   .contacts button{
-    margin-right: 0;
-    color: #bc430d;
-  }
-
-  .contacts button{
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-right: 0;
+    color: #bc430d;
   }
 
   .welcome-block{
@@ -107,10 +248,13 @@
 
   .margin-text .tag{
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: 20px;
     font-size: 18px;
+  }
+
+  .portfolio-hover{
+    color: #bc430d;
   }
 
   .portfolio-block .tag{
@@ -242,7 +386,6 @@
 
   .margin-text .tag{
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: 35px;
     font-size: 18px;
@@ -330,7 +473,6 @@
 
   .margin-text .tag{
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: 55px;
 

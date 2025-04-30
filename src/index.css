@@ -243,7 +243,7 @@ header{
 /*      ----SERVICES BLOCK----     */
 
 .service-block{
-  height: 500px;
+  height: 700px;
   width: 100%;
 
   background: #ffffff;
@@ -273,6 +273,8 @@ header{
 
 .service-block .tag{
   display: flex;
+  width: 500px;
+  align-items: center;
   font-size: 24px;
   font-weight: 500;
   background: #dddcdd;

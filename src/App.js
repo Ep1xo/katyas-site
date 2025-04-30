@@ -73,7 +73,6 @@ function App() {
             Зупиняю час в об'єктиві. Ознайомтеся з моїми фотопослугами:
           </p>
 
-          <div style={{display:'flex'}}>
             <div className='tag'>
               <div className='tag-icon'></div>
               <span>Портретні зйомки</span>
@@ -84,8 +83,6 @@ function App() {
               <div className='tag-icon'></div>
               <span>Креативні фотопроєкти</span>
             </div>
-          </div>
-          <div style={{display:'flex'}}>
             <div className='tag'>
               <div className='tag-icon'></div>
               <span>Ретушування зображень</span>
@@ -96,7 +93,6 @@ function App() {
               <div className='tag-icon'></div>
               <span>Сімейні фотосесії</span>
             </div>
-          </div>
 
           <p style={{fontSize:"27px"}}>
             Напишіть мені, щоб дізнатися більше про мою роботу або <span className="portfolio-hover" onClick={openContactWindow}>забронюйте зйомку.</span>
@@ -126,7 +122,7 @@ function App() {
           </p>
         </div>
 
-        <div>
+        <div className='abrakadabra'>
           {renderComponent()}
         </div>
       </div>
