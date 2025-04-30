@@ -1,16 +1,16 @@
 @media (max-width: 320px) { 
   
 }
- 
-@media (max-width: 480px) { 
+
+@media (min-width: 321px) and (max-width: 360px) {
   
 }
 
-@media (max-width: 360px) {
+@media (min-width: 361px) and (max-width: 480px) { 
   
 }
  
-@media (max-width: 640px) { 
+@media (min-width: 481px) and (max-width: 640px) { 
   body{
     overflow-x: hidden;
   }
@@ -69,7 +69,7 @@
   }
 
   .main-info h1{
-    font-size: 45px;
+    font-size: 35px;
   } 
 
   .main-info h2{
@@ -91,12 +91,6 @@
 
   .portfolio-hover{
     color: #bc430d;
-  }
-
-  .portfolio-block .tag{
-    font-size: 18px;
-    margin-right: 5px;
-    margin-bottom: 5px;
   }
 
   .all-photos{
@@ -160,17 +154,12 @@
   }
 
   .portfolio-block .tag{
-    font-size: 18px;
-    margin-right: 5px;
+    font-size: 14px;
+    margin-right: 3px;
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .portfolio-block div{
-    margin-left: 15px;
-    margin-right: 15px;
   }
 }
 
@@ -538,4 +527,4 @@
 
     margin-left: 105px;
   }
-}
+} 
