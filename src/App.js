@@ -73,23 +73,27 @@ function App() {
             Зупиняю час в об'єктиві. Ознайомтеся з моїми фотопослугами:
           </p>
 
-            <div className='tag'>
+            <div className='tag-services'>
               <div className='tag-icon'></div>
               <span>Портретні зйомки</span>
-            </div><div className='tag'>
+            </div>
+            <div className='tag-services'>
               <div className='tag-icon'></div>
               <span>Фотографування подій</span>
-            </div><div className='tag'>
+            </div>
+            <div className='tag-services'>
               <div className='tag-icon'></div>
               <span>Креативні фотопроєкти</span>
             </div>
-            <div className='tag'>
+            <div className='tag-services'>
               <div className='tag-icon'></div>
               <span>Ретушування зображень</span>
-            </div><div className='tag'>
+            </div>
+            <div className='tag-services'>
               <div className='tag-icon'></div>
               <span>Студійні зйомки</span>
-            </div><div className='tag'>
+            </div>
+            <div className='tag-services'>
               <div className='tag-icon'></div>
               <span>Сімейні фотосесії</span>
             </div>

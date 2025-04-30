@@ -275,7 +275,7 @@ header{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.service-block .tag{
+.service-block .tag-services{
   display: flex;
   width: 500px;
   align-items: center;
@@ -289,7 +289,7 @@ header{
   margin-bottom: 10px;
 }
 
-.service-block .tag .tag-icon{
+.service-block .tag-services .tag-icon{
   margin: -10px;
   padding: 0;
   position: relative;
