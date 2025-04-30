@@ -47,9 +47,9 @@ function App() {
         <div className="navigation">
           <button onClick={upButton}>Головна</button>
           <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="800">Послуги</button>
-          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="1350">Портфоліо</button>
-          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="2300">Гарантії</button>
-          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="3040">FAQ</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="1540">Портфоліо</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="2520">Гарантії</button>
+          <button onClick={(e) => toBlock(e.target.getAttribute('height'))} height="3270">FAQ</button>
         </div>
         <div className="contacts">
           <button onClick={openContactWindow}>Контакти</button>
@@ -191,6 +191,7 @@ function App() {
       </div>
 
       <div className='bottom-part'>
+        <img src='./images/full-logo.jpg'/>
         <p>© 2025 Katerinn Video. Усі права застережено.</p>
       </div>
     </div>
