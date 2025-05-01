@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/katyas-site/static/css/main.79dbc499.css",
-    "main.js": "/katyas-site/static/js/main.3a60111c.js",
-    "static/js/453.56bc03ec.chunk.js": "/katyas-site/static/js/453.56bc03ec.chunk.js",
-    "index.html": "/katyas-site/index.html",
-    "main.79dbc499.css.map": "/katyas-site/static/css/main.79dbc499.css.map",
-    "main.3a60111c.js.map": "/katyas-site/static/js/main.3a60111c.js.map",
-    "453.56bc03ec.chunk.js.map": "/katyas-site/static/js/453.56bc03ec.chunk.js.map"
+    "main.css": "/katerinn.video/static/css/main.79dbc499.css",
+    "main.js": "/katerinn.video/static/js/main.b74cc4a1.js",
+    "static/js/453.56bc03ec.chunk.js": "/katerinn.video/static/js/453.56bc03ec.chunk.js",
+    "index.html": "/katerinn.video/index.html",
+    "main.79dbc499.css.map": "/katerinn.video/static/css/main.79dbc499.css.map",
+    "main.b74cc4a1.js.map": "/katerinn.video/static/js/main.b74cc4a1.js.map",
+    "453.56bc03ec.chunk.js.map": "/katerinn.video/static/js/453.56bc03ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79dbc499.css",
-    "static/js/main.3a60111c.js"
+    "static/js/main.b74cc4a1.js"
   ]
 }
