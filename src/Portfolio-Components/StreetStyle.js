@@ -8,8 +8,8 @@ const StreetStyle = () => {
         <img src={`${process.env.PUBLIC_URL}/images/all/Miron_1.jpg`}/>
         <img src={`${process.env.PUBLIC_URL}/images/all/Miron_2.jpg`}/>
         <img src={`${process.env.PUBLIC_URL}/images/all/Miron_3.jpg`}/>
-        <img src={`${process.env.PUBLIC_URL}/images/all/Nika_color.jpg`}/>
-        <img src={`${process.env.PUBLIC_URL}/images/all/Nika_WB.jpg`}/>
+        <img src={`${process.env.PUBLIC_URL}/images/all/liza_1.jpg`}/>
+        <img src={`${process.env.PUBLIC_URL}/images/all/liza_2.jpg`}/>
       </div>
     </div>
   )  
