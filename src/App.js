@@ -74,27 +74,27 @@ function App() {
           </p>
 
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
               <span>Портретні зйомки</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
               <span>Фотографування подій</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
               <span>Креативні фотопроєкти</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
               <span>Ретушування зображень</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
               <span>Студійні зйомки</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
               <span>Сімейні фотосесії</span>
             </div>
 
