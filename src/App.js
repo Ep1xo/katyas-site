@@ -63,7 +63,7 @@ function App() {
           <h1>Фотографиня <span className='Katerina'>Катерина</span></h1>
           <h2>Світло. Справжність. Ти.</h2>
         </div>
-        <div><img className='main-photo' src="/images/all/Katerinn_MAIN_PHOTO.jpg"/></div>
+        <div><img className='main-photo' src={`${process.env.PUBLIC_URL}/images/all/Katerinn_MAIN_PHOTO.jpg`}/></div>
       </div>
 
       <div className='service-block' draggable="false">
@@ -74,27 +74,27 @@ function App() {
           </p>
 
             <div className='tag-services'>
-              <div className='tag-icon'></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
               <span>Портретні зйомки</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
               <span>Фотографування подій</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
               <span>Креативні фотопроєкти</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
               <span>Ретушування зображень</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
               <span>Студійні зйомки</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}\public/icons/check.png`}/></div>
               <span>Сімейні фотосесії</span>
             </div>
 
@@ -135,28 +135,28 @@ function App() {
         <h1>ГАРАНТІЇ</h1>
 
         <div className='guarantie'>
-          <img src='/icons/checklist.png'/>
+          <img src={`${process.env.PUBLIC_URL}/icons/checklist.png`}/>
           <p>Якість — професійна обробка та відбір найкращих кадрів.</p>
         </div>
         <div className='guarantie'>
-          <img src='/icons/checklist.png'/>
+          <img src={`${process.env.PUBLIC_URL}/icons/checklist.png`}/>
           <p>Терміни — фото вчасно, або знижка.</p>
         </div>
         <div className='guarantie'>
-          <img src='/icons/checklist.png'/>
+          <img src={`${process.env.PUBLIC_URL}/icons/checklist.png`}/>
           <p>Конфіденційність — без публікації без вашої згоди.</p>
         </div>
         <div className='guarantie'>
-          <img src='/icons/checklist.png'/>
+          <img src={`${process.env.PUBLIC_URL}/icons/checklist.png`}/>
           <p>Прозорість — чіткий договір і зрозумілі умови.</p>
         </div>
         <div className='guarantie'>
-          <img src='/icons/checklist.png'/>
+          <img src={`${process.env.PUBLIC_URL}/icons/checklist.png`}/>
           <p>Підтримка на всіх етапах — від підготовки до фінальних фото.
           </p>
         </div>
         <div className='guarantie'>
-          <img src='/icons/checklist.png'/>
+          <img src={`${process.env.PUBLIC_URL}/icons/checklist.png`}/>
           <p>Індивідуальний підхід — зйомка під ваш стиль та запит.</p>
         </div>
       </div>

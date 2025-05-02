@@ -21,7 +21,7 @@ const FaqBlock = ({ question, answer }) => {
       <div className="faq-question">
         <h5>{question}</h5>
         <img
-          src={isOpen ? '/icons/remove_circle.png' : '/icons/add_circle.png'}
+          src={isOpen ? `${process.env.PUBLIC_URL}/icons/remove_circle.png` : `${process.env.PUBLIC_URL}/icons/add_circle.png`}
           alt="toggle icon"
           draggable="false"
         />
