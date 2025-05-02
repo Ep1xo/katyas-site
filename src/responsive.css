@@ -1,11 +1,3 @@
-@media (max-width: 320px) { 
-  
-}
-
-@media (min-width: 321px) and (max-width: 360px) {
-  
-}
-
 @media (min-width: 361px) and (max-width: 480px) { 
   body{
     overflow-x: hidden;
@@ -21,19 +13,47 @@
   }
 
   .contacts{
-    position: fixed;
-    bottom: 35px;
-    right: 25px;
-
-    margin-right: 0;
+    display: none;
   }
 
-  .contacts button{
-    font-size: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 0;
-    color: #bc430d;
+  .instagram-logo{
+    display: flex;
+
+    position: fixed;
+
+    bottom: 25px;
+    right: 30px;
+
+    background-color: #fc6501;
+    border-radius: 50%;
+    padding: 15px;
+  }
+
+  .instagram-logo img{
+    width: 40px;
+  }
+  
+  .window{
+    top: 75vw;
+    right: 12vw;
+    left: 12vw;
+  }
+
+  .top-part{
+    font-size: 16px;    
+  }
+
+  .bottom-part{
+    font-size: 18px;
+  }
+
+  .bottom-part img{
+    width: 100px;
+  }
+
+  .bottom-part a{
+    margin-right: 5%;
+    margin-left: 5px;
   }
 
   .welcome-block{
@@ -158,6 +178,11 @@
   .bottom-part{
     font-size: 14px;
   }
+
+  .bottom-part img{
+    margin-right: 10px;
+    width: 50px;
+  }
 }
  
 @media (min-width: 481px) and (max-width: 640px) { 
@@ -175,19 +200,46 @@
   }
 
   .contacts{
-    position: fixed;
-    bottom: 35px;
-    right: 25px;
-
-    margin-right: 0;
+    display: none;
   }
 
-  .contacts button{
-    font-size: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 0;
-    color: #bc430d;
+  .instagram-logo{
+    display: flex;
+
+    position: fixed;
+
+    bottom: 25px;
+    right: 30px;
+
+    background-color: #fc6501;
+    border-radius: 50%;
+    padding: 15px;
+  }
+
+  .instagram-logo img{
+    width: 40px;
+  }
+
+  .window{
+    top: 45vw;
+    right: 15vw;
+    left: 15vw;
+  }
+
+  .top-part{
+    font-size: 20px;    
+  }
+
+  .bottom-part{
+    font-size: 16px;
+  }
+
+  .bottom-part img{
+    width: 80px;
+  }
+
+  .bottom-part a{
+    margin-right: 5%;
   }
 
   .welcome-block{
@@ -324,20 +376,42 @@
   }
 
   .contacts{
-    position: fixed;
-    bottom: 35px;
-    right: 25px;
-
-    margin-right: 0;
-
+    display: none;
   }
 
-  .contacts button{
+  .instagram-logo{
+    display: flex;
+
+    position: fixed;
+
+    bottom: 25px;
+    right: 30px;
+
+    background-color: #fc6501;
+    border-radius: 50%;
+    padding: 15px;
+  }
+
+  .instagram-logo img{
+    width: 40px;
+  }
+
+  .top-part{
     font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 0;
-    color: #bc430d;
+  }
+
+  .window{
+    top: 35vw;
+    right: 25vw;
+    left: 25vw;
+  }
+
+  .bottom-part{
+    font-size: 16px;
+  }
+
+  .bottom-part img{
+    width: 80px;
   }
 
   .welcome-block{
@@ -487,6 +561,24 @@
     padding-right: 30px;
   }
 
+  .window{
+    top: 35vw;
+    right: 25vw;
+    left: 25vw;
+  }
+
+  .top-part{
+    font-size: 20px;
+  }
+
+  .bottom-part{
+    font-size: 16px;
+  }
+
+  .bottom-part img{
+    width: 80px;
+  }
+
   .welcome-block{
     margin-top: 50px;
   }
@@ -588,6 +680,12 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   body{
     overflow-x: hidden;
+  }
+
+  .window{
+    top: 25vw;
+    right: 25vw;
+    left: 25vw;
   }
 
   .welcome-block h1{

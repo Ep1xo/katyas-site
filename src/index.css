@@ -114,6 +114,10 @@ header{
   border-radius: 50%;
 }
 
+.instagram-logo{
+  display: none;
+}
+
 /*      ----CONTACT WINDOW----      */
 
 .back{
@@ -151,7 +155,8 @@ header{
   align-items: center;
 
   margin-left: 5%;
-  margin-top: 1%;
+  margin-right: 5%;
+  margin-top: 5%;
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 22px;
@@ -189,7 +194,7 @@ header{
 }
 
 .bottom-part a{
-  margin-left: 2%;
+  margin-left: 15px;
   margin-right: 12%;
 }
 
@@ -289,8 +294,9 @@ header{
   margin-bottom: 10px;
 }
 
-.service-block .tag-services .tag-icon{
+.service-block .tag-services .tag-icon img{
   margin: -10px;
+  margin-bottom: -15px;
   padding: 0;
   position: relative;
   background: none;
@@ -589,8 +595,15 @@ header{
 
 .bottom-part{
   padding-bottom: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bottom-part p{
   color: #747474;
+}
+
+.bottom-part img{
+  margin-right: 10px;
 }

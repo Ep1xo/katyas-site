@@ -54,6 +54,9 @@ function App() {
         <div className="contacts">
           <button onClick={openContactWindow}>Контакти</button>
         </div>
+        <a className='instagram-logo' href="https://www.instagram.com/katerinn.video?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
+          <img src={`${process.env.PUBLIC_URL}/icons/instagram.png`} alt="Instagram"/>
+        </a>
       </header>
 
       <ContactWindow show={showContactWindow} onClose={closeContactWindow} />
@@ -74,27 +77,27 @@ function App() {
           </p>
 
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/icons/check.png`}/></div>
               <span>Портретні зйомки</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/icons/check.png`}/></div>
               <span>Фотографування подій</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/icons/check.png`}/></div>
               <span>Креативні фотопроєкти</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/icons/check.png`}/></div>
               <span>Ретушування зображень</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/icons/check.png`}/></div>
               <span>Студійні зйомки</span>
             </div>
             <div className='tag-services'>
-              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/public/icons/check.png`}/></div>
+              <div className='tag-icon'><img src={`${process.env.PUBLIC_URL}/icons/check.png`}/></div>
               <span>Сімейні фотосесії</span>
             </div>
 
@@ -191,7 +194,7 @@ function App() {
       </div>
 
       <div className='bottom-part'>
-        <img src='./images/full-logo.jpg'/>
+        <img src={`${process.env.PUBLIC_URL}/images/full-logo.jpg`}/>
         <p>© 2025 Katerinn Video. Усі права застережено.</p>
       </div>
     </div>
