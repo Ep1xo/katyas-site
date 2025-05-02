@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/katyas-site/static/css/main.c86445dd.css",
-    "main.js": "/katyas-site/static/js/main.be95a08a.js",
+    "main.js": "/katyas-site/static/js/main.c926eccf.js",
     "static/js/453.56bc03ec.chunk.js": "/katyas-site/static/js/453.56bc03ec.chunk.js",
     "index.html": "/katyas-site/index.html",
     "main.c86445dd.css.map": "/katyas-site/static/css/main.c86445dd.css.map",
-    "main.be95a08a.js.map": "/katyas-site/static/js/main.be95a08a.js.map",
+    "main.c926eccf.js.map": "/katyas-site/static/js/main.c926eccf.js.map",
     "453.56bc03ec.chunk.js.map": "/katyas-site/static/js/453.56bc03ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c86445dd.css",
-    "static/js/main.be95a08a.js"
+    "static/js/main.c926eccf.js"
   ]
 }
