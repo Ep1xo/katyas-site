@@ -169,19 +169,19 @@ function App() {
         <div className='faq'>
           <div>
             <div className='question-element-opener'>
-            <FaqBlock question="Як забронювати фотосесію?" answer="Зв'яжіться зі мною через форму на сайті або в соцмережах підберемо зручну дату." />
+            <FaqBlock question="Як забронювати фотосесію?" answer="Зв'яжіться зі мною в соцмережах, ми підберемо зручну дату." />
             </div>
             <div className='question-element'>
-              <FaqBlock question="Де відбуваються зйомки?" answer="На вулиці, у студії чи за домовленістю все обговоримо заздалегідь." />
+              <FaqBlock question="Де відбуваються зйомки?" answer="На вулиці, у студії чи за домовленістю, все обговоримо заздалегідь." />
             </div>
             <div className='question-element'>
               <FaqBlock question="Ви обробляєте фотографії?" answer="Так, всі знімки проходять корекцію кольору і легку ретуш." />
             </div>
             <div className='question-element'>
-              <FaqBlock question="Що робити, якщо буде йти дощ/погана погода?" answer="Перенесемо зйомку або підберемо альтернативну локацію." />
+              <FaqBlock question="Що робити, якщо буде йти дощ / погана погода?" answer="Перенесемо зйомку або підберемо альтернативну локацію." />
             </div>
             <div className='question-element'>
-              <FaqBlock question="Чи можна прийти з другом/сім'єю/домашньою твариною?" answer="Звісно! Чим тепліше компанія, тим живіше кадри." />
+              <FaqBlock question="Чи можна прийти з другом / сім'єю / домашньою твариною?" answer="Звісно! Чим тепліше компанія, тим живіше кадри." />
             </div>
             <div className='question-element'>
               <FaqBlock question="Ви публікуєте фото клієнтів у портфоліо?" answer="Тільки за вашою згодою. Конфіденційність важлива." />
